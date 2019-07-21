@@ -46,7 +46,7 @@ $ cd <your-projects-folder>
 
 Generate a new Cookiecutter template layout:
 ```
-$ cookiecutter gh:gramaziokohler/python_template
+$ cookiecutter gh:augmentedfabricationlab/python_template
 ```
 
 Go to project folder:
