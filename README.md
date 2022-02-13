@@ -55,8 +55,22 @@ Go to project folder:
 $ cd <project-slug>
 ```
 
-Now you can see which tasks are available:
+Now you are ready to install the newly created project. It is recommended that you create a conda environment for it, for instance, if you plan to use Python 3.8 you could create it with the following command:
+```
+$ conda create -n NAME_OF_YOUR_PROJECT_ENV python=3.8
+```
 
+Activate the environment:
+```
+$ conda activate NAME_OF_YOUR_PROJECT_ENV
+```
+
+Now we are ready to install the project that we have just created:
+```
+$ pip install -r requirements-dev.txt
+```
+
+Now you can see which tasks are available:
 ```
 $ invoke help
 ```
