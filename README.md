@@ -39,7 +39,7 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 ## Usage
 
-In the terminal, go to the folder where you want to place your project:
+In the terminal (Anaconda prompt, Run as Administrator!), go to the folder where you want to place your project:
 ```
 $ cd <your-projects-folder>
 ```
